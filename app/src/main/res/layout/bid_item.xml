@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="ID"
+        android:id="@+id/id"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="PRICE"
+        android:id="@+id/Price"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="DATE"
+        android:id="@+id/dateTime"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="AUCTIONS"
+        android:id="@+id/auctions"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="USER"
+        android:id="@+id/user"
+        />
+</LinearLayout>
